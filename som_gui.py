@@ -1,9 +1,8 @@
-from PyQt5 import QtGui, QtCore, QtWidgets
-from PyQt5.QtGui import QPen, QBrush, QColor, QFont
+from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QWidget, QGraphicsView, QGraphicsScene
+from PyQt5.QtGui import QPen, QBrush, QColor, QFont
 from PyQt5.QtWidgets import QGraphicsSimpleTextItem, QGraphicsEllipseItem, QGraphicsLineItem, QGraphicsRectItem
-from som import SelfOrganizingMap
+from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene
 
 
 class SomGui(QtWidgets.QMainWindow):

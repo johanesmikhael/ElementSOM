@@ -1,11 +1,12 @@
 import csv
 import random
 import sys
+
+import networkx
 from PyQt5.QtWidgets import QApplication
 from som_gui import SomGui
+
 from som import SelfOrganizingMap
-import networkx
-from math import sqrt
 
 elements_list = []
 element_dict = {}
